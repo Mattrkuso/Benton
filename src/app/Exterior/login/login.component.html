@@ -1,0 +1,23 @@
+<mat-toolbar>
+    Benton
+</mat-toolbar>
+
+<mat-card>
+      <h1>Ingrese sus datos</h1>
+    <form action="" method="post">
+    <mat-form-field appearance="outline">
+        <mat-label>Usuario/Correo</mat-label>
+        <input matInput placeholder="Ingrese su usuario" name="user" required>
+    </mat-form-field>
+        <br>
+          <mat-form-field appearance="outline">
+              <mat-label>Contraseña</mat-label>
+              <input type="password" matInput placeholder="Ingrese su contraseña" name="password" required>
+          </mat-form-field>
+            <br>
+            <button type="submit" mat-raised-button>Ingresar</button>
+</form>
+</mat-card>
+
+
+<a [routerLink]="['/registro']" routerLinkActive="router-link-active" >asdasdasdasd</a>

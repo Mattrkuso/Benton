@@ -1,0 +1,24 @@
+.mat-toolbar{
+    background-color: blueviolet;
+}
+.mat-card{
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: solid rgba(0, 0, 0, 0.068);
+    height: 1000px;
+}
+
+
+
+
+/***Formulario****/
+.formu{
+    border: rgba(0, 0, 0, 0.068) solid;
+    width: 800px;
+    right: 0px;
+    float: right;
+    text-align: center;
+    margin-top: -260px;
+}
